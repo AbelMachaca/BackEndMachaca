@@ -1,0 +1,1 @@
+Sinceramente elegiria ejs porque es simple y se parece a handlebars como a las plantillas de js.

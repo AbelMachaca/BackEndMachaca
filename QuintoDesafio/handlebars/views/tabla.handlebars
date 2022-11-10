@@ -1,0 +1,25 @@
+{{#if productos.length}}
+<div class="d-flex align-items-center flex-column ">
+    <table class="table table-dark">
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>IMG</th>
+        </tr>
+        <tbody>
+            {{#each productos}}
+            <tr>
+                <td>{{title}}</td>
+                <td>{{price}}</td>
+                <td><img src={{thumbnail}} alt={{title}} width="50px" height="50px"></td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+    <a href="/"><button type="button" class="btn btn-primary">Formulario</button></a>
+</div>
+
+{{ else }}
+<h3>No hay producto</h3>
+<a href="/"><button type="button" class="btn btn-primary">Formulario</button></a>
+{{/if}}

@@ -1,0 +1,19 @@
+<div class="d-flex align-items-center flex-column ">
+    <form action="/api/productos/" method="post" class="shadow p-3 mb-5 bg-body rounded">
+        <h2>Ingrese Producto</h2>
+        <div>
+            <label for="nombre" class="form-label">Nombre del producto:</label>
+            <input type="text" name="title" id="nombre" class="form-control">
+        </div>
+        <div>
+            <label for="precio" class="form-label">Precio:</label>
+            <input type="number" name="price" id="precio" class="form-control">
+        </div>
+        <div>
+            <label for="img" class="form-label">Url de imagen:</label>
+            <input type="text" name="thumbnail" id="img" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary my-2">Listo</button>
+    </form>
+    <a href="/api/productos"><button type="button" class="btn btn-primary my-2">Ver Productos</button></a>
+</div>
