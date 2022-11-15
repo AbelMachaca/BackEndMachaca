@@ -1,0 +1,17 @@
+.listaMsg {
+    list-style: none;
+}
+
+.userName {
+    color: rgb(104, 19, 19);
+}
+
+.userDate {
+    color: #d69960;
+}
+
+.userMsg {
+    display: inline-block;
+    font-style: italic;
+    color: #000000;
+}
